@@ -1,0 +1,118 @@
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G
+[31m✘[39m angular v20.0.5 is [31mnot yet supported[39m in the Community edition of [33mConsole Ninja[39m.
+We are working hard on it for you [36mhttps://tinyurl.com/3h9mtwra[39m.
+
+Estimated release dates:
+  - Community users: [36maround 1st September, 2025 [1m(subject to team availability)[22m[39m
+[33m  - PRO users[39m:       [1m[32mpriority access is available now[39m[22m
+[?25h[37mApplication bundle generation failed. [0.838 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'module' values 'CommonJS', 'UMD', 'System' and 'AMD' are not supported.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  The 'module' option will be set to 'ES2022' instead.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'target' and 'useDefineForClassFields' are set to 'ES2022' and 'false' respectively by the Angular CLI.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    tsconfig.app.json:0:0:[39m[22m
+[1m[33m[37m      0 │ [32m[37m[39m[22m
+[1m[33m        ╵ [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  To control ECMA version and features use the Browserslist configuration. For more information, see [4mhttps://angular.dev/tools/cli/build#configuring-browser-compatibility[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'module' values 'CommonJS', 'UMD', 'System' and 'AMD' are not supported.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  The 'module' option will be set to 'ES2022' instead.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'target' and 'useDefineForClassFields' are set to 'ES2022' and 'false' respectively by the Angular CLI.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    tsconfig.app.json:0:0:[39m[22m
+[1m[33m[37m      0 │ [32m[37m[39m[22m
+[1m[33m        ╵ [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  To control ECMA version and features use the Browserslist configuration. For more information, see [4mhttps://angular.dev/tools/cli/build#configuring-browser-compatibility[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'module' values 'CommonJS', 'UMD', 'System' and 'AMD' are not supported.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  The 'module' option will be set to 'ES2022' instead.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTypeScript compiler options 'target' and 'useDefineForClassFields' are set to 'ES2022' and 'false' respectively by the Angular CLI.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    tsconfig.app.json:0:0:[39m[22m
+[1m[33m[37m      0 │ [32m[37m[39m[22m
+[1m[33m       [39m[22m[1m[33m ╵ [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  To control ECMA version and features use the Browserslist configuration. For more information, see [4mhttps://angular.dev/tools/cli/build#configuring-browser-compatibility[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCannot find tsconfig file "tsconfig.app.json"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mAngular compilation emit failed.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  AssertionError [ERR_ASSERTION]: compilerOptions.basePath should be a string.[39m[22m
+[1m[31m      at lazyRoutesTransformer (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/transformers/lazy-routes-transformer.js:49:31)[39m[22m
+[1m[31m      at AotCompilation.emitAffectedFiles (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/aot-compilation.js:235:90)[39m[22m
+[1m[31m      at emit (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/parallel-worker.js:97:37)[39m[22m
+[1m[31m      at onMessage (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/piscina/dist/worker.js:180:28)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS500: Error: ENOENT: no such file or directory, lstat '/Users/daneshwaranm/Documents/Projects/sample/learn-latest/tsconfig.app.json'[39m[22m
+[1m[31m    at Object.lstatSync (node:fs:1640:25)[39m[22m
+[1m[31m    at NodeJSFileSystem.lstat (file:///Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/compiler-cli/bundles/chunk-3NKMA2JO.js:73:15)[39m[22m
+[1m[31m    at calcProjectFileAndBasePath (file:///Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/compiler-cli/bundles/chunk-ZWSVOOGU.js:4952:29)[39m[22m
+[1m[31m    at readConfiguration (file:///Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/compiler-cli/bundles/chunk-ZWSVOOGU.js:4978:39)[39m[22m
+[1m[31m    at /Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/angular-compilation.js:71:69[39m[22m
+[1m[31m    at profileSync (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/esbuild/profiling.js:68:16)[39m[22m
+[1m[31m    at AotCompilation.loa[39m[22m[1m[31mdConfiguration (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/angular-compilation.js:71:44)[39m[22m
+[1m[31m    at async AotCompilation.initialize (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/aot-compilation.js:62:100)[39m[22m
+[1m[31m    at async initialize (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/@angular/build/src/tools/angular/compilation/parallel-worker.js:40:88)[39m[22m
+[1m[31m    at async onMessage (/Users/daneshwaranm/Documents/Projects/sample/learn-latest/node_modules/piscina/dist/worker.js:180:22)[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "/Users/daneshwaranm/Documents/Projects/sample/learn-latest/src/main.ts"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCannot find tsconfig file "tsconfig.app.json"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./src/main.server"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    angular:main-server:angular:main-server:8:24:[39m[22m
+[1m[31m[37m      8 │ export { default } from [32m'./src/main.server'[37m;[39m[22m
+[1m[31m        ╵                         [32m~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCannot find tsconfig file "tsconfig.app.json"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./src/server"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    angular:ssr-entry:angular:ssr-entry:2:24:[39m[22m
+[1m[31m[37m      2 │ import * as server from [32m'./src/server'[37m;[39m[22m
+[1m[31m        ╵                         [32m~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "src/styles.scss"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    angular:styles/global:styles:1:8:[39m[22m
+[1m[31m[37m      1 │ @import [32m'src/styles.scss'[37m;[39m[22m
+[1m[31m        ╵         [32m~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  You can mark the path "src/styles.scss" as external to exclude it from the bundle, which will remove this error and leave the unresolved path in the bundle.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCannot f[39m[22m[1m[31mind tsconfig file "tsconfig.app.json"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37mWatch mode enabled. Watching for file changes...[39m
+^C

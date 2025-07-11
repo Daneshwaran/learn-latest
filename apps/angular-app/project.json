@@ -1,36 +1,34 @@
 {
-  "$schema": "node_modules/nx/schemas/project-schema.json",
-  "name": "learn-latest",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "angular-app",
   "projectType": "application",
   "generators": {
     "@schematics/angular:component": {
       "style": "scss"
     }
   },
-  "sourceRoot": "src",
+  "sourceRoot": "apps/angular-app/src",
   "prefix": "app",
   "targets": {
     "build": {
       "executor": "@angular/build:application",
       "options": {
-        "browser": "src/main.ts",
-        "tsConfig": "tsconfig.app.json",
+        "browser": "apps/angular-app/src/main.ts",
+        "tsConfig": "apps/angular-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "public"
+            "input": "apps/angular-app/public"
           }
         ],
-        "styles": [
-          "src/styles.scss"
-        ],
-        "server": "src/main.server.ts",
+        "styles": ["apps/angular-app/src/styles.scss"],
+        "server": "apps/angular-app/src/main.server.ts",
         "outputMode": "server",
         "ssr": {
-          "entry": "src/server.ts"
+          "entry": "apps/angular-app/src/server.ts"
         },
-        "outputPath": "dist/learn-latest"
+        "outputPath": "dist/angular-app"
       },
       "configurations": {
         "production": {
@@ -55,18 +53,16 @@
         }
       },
       "defaultConfiguration": "production",
-      "outputs": [
-        "{options.outputPath}"
-      ]
+      "outputs": ["{options.outputPath}"]
     },
     "serve": {
       "executor": "@angular/build:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "learn-latest:build:production"
+          "buildTarget": "angular-app:build:production"
         },
         "development": {
-          "buildTarget": "learn-latest:build:development"
+          "buildTarget": "angular-app:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -77,17 +73,15 @@
     "test": {
       "executor": "@angular/build:karma",
       "options": {
-        "tsConfig": "tsconfig.spec.json",
+        "tsConfig": "apps/angular-app/tsconfig.spec.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "public"
+            "input": "apps/angular-app/public"
           }
         ],
-        "styles": [
-          "src/styles.scss"
-        ]
+        "styles": ["apps/angular-app/src/styles.scss"]
       }
     }
   }
