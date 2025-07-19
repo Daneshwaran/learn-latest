@@ -1,0 +1,50 @@
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[33m⠇[39m Building...
+[2K[1A[2K[G[33m⠏[39m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G
+[31m✘[39m angular v20.0.5 is [31mnot yet supported[39m in the Community edition of [33mConsole Ninja[39m.
+We are working hard on it for you [36mhttps://tinyurl.com/3h9mtwra[39m.
+
+Estimated release dates:
+  - Community users: [36maround 1st September, 2025 [1m(subject to team availability)[22m[39m
+[33m  - PRO users[39m:       [1m[32mpriority access is available now[39m[22m
+[?25h[37m[35mBrowser bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m             [2m | [22m[2mmain[22m            [2m | [22m [36m47.35 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m          [2m | [22m[2mstyles[22m          [2m | [22m[36m113 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m [1m47.46 kB[22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m      [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m48.65 kB[39m[37m[2m | [22m[39m
+[37m[32mserver.mjs[39m[37m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.80 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.server.mjs[39m[37m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m243 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [1.171 seconds][39m
+[37m[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+[31m✘[39m angular v20.0.5 is [31mnot yet supported[39m in the Community edition of [33mConsole Ninja[39m.
+We are working hard on it for you [36mhttps://tinyurl.com/3h9mtwra[39m.
+
+Estimated release dates:
+  - Community users: [36maround 1st September, 2025 [1m(subject to team availability)[22m[39m
+[33m  - PRO users[39m:       [1m[32mpriority access is available now[39m[22m
+
+[?25h

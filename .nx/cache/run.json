@@ -1,21 +1,9 @@
 {
   "run": {
-    "command": "nx run learn-latest:serve --watch=true",
-    "startTime": "2025-07-10T11:13:33.429Z",
-    "endTime": "2025-07-10T11:19:20.967Z",
+    "command": "nx run react-js:serve",
+    "startTime": "2025-07-11T11:31:53.649Z",
+    "endTime": "2025-07-14T04:39:31.986Z",
     "inner": false
   },
-  "tasks": [
-    {
-      "taskId": "learn-latest:serve:development",
-      "target": "serve",
-      "projectName": "learn-latest",
-      "hash": "17517138898589407058",
-      "startTime": "2025-07-10T11:13:33.584Z",
-      "endTime": "2025-07-10T11:19:20.963Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    }
-  ]
+  "tasks": []
 }

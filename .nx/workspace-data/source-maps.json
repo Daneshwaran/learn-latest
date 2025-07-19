@@ -377,25 +377,25 @@
       "nx/target-defaults"
     ]
   },
-  "apps/react-app-vite": {
+  "apps/react-js": {
     "root": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
+      "apps/react-js/vite.config.js",
+      "@nx/vite/plugin"
     ],
     "projectType": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
+      "apps/react-js/vite.config.js",
+      "@nx/vite/plugin"
     ],
     "targets": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.cache": [
@@ -411,594 +411,272 @@
       "nx/target-defaults"
     ],
     "targets.build.outputs": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.options.cwd": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.options.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.technologies": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.description": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.continuous": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.options.cwd": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.options.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.technologies": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.technologies.0": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.description": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help.example": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.deprecated": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.continuous": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.options.cwd": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.options.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.technologies": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.technologies.0": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.description": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help.example": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.continuous": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.dependsOn": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.options.cwd": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.options.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.description": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.continuous": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options.buildTarget": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options.spa": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.cache": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.inputs": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.options": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.executor": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.options.cwd": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.options.command": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.description": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.technologies": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.technologies.0": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.help": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.help.command": [
-      "apps/react-app-vite/vite.config.ts",
-      "@nx/vite/plugin"
-    ],
-    "targets.typecheck.metadata.help.example": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build-deps": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.continuous": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.executor": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.options": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "apps/react-app-vite/vite.config.ts",
+      "apps/react-js/vite.config.js",
       "@nx/vite/plugin"
-    ],
-    "name": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
-    ],
-    "// targets": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/react-app-vite/project.json",
-      "nx/core/project-json"
     ],
     "targets.build.parallelism": [
       "nx.json",
       "nx/target-defaults"
-    ]
-  },
-  "apps/react-app-e2e": {
-    "root": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "metadata.targetGroups": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI)": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI).0": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI).1": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.options": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.dependsOn": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.cache": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.inputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.outputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.executor": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.options.cwd": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.options.command": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.technologies": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.technologies.0": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.description": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.help": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.help.command": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e.metadata.help.example": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.options": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.cache": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.inputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.outputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.executor": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.options.env": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.options.command": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.executor": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.cache": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.inputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.outputs": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.dependsOn": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.technologies": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.technologies.0": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.description": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.nonAtomizedTarget": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.help": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.help.command": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "targets.e2e-ci.metadata.help.example": [
-      "apps/react-app-e2e/playwright.config.ts",
-      "@nx/playwright/plugin"
-    ],
-    "name": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "// targets": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.react-app": [
-      "apps/react-app-e2e/project.json",
-      "nx/core/project-json"
     ]
   },
   "apps/angular-app": {

@@ -15,13 +15,13 @@
     "strictTemplates": true
   },
   "files": [],
+  "extends": "./tsconfig.base.json",
   "references": [
     {
-      "path": "tsconfig.app.json"
+      "path": "./apps/angular-app/tsconfig.app.json"
     },
     {
-      "path": "tsconfig.spec.json"
+      "path": "./apps/angular-app/tsconfig.spec.json"
     }
-  ],
-  "extends": "./tsconfig.base.json"
+  ]
 }

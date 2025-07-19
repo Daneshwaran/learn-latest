@@ -1,9 +1,0 @@
-{
-  "name": "react-app-vite",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/react-app-vite/src",
-  "projectType": "application",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project react-app-vite --web",
-  "targets": {}
-}
