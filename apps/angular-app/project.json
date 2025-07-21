@@ -79,6 +79,11 @@
           {
             "glob": "**/*",
             "input": "apps/angular-app/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "apps/angular-app/src/assets",
+            "output": "assets"
           }
         ],
         "styles": ["apps/angular-app/src/styles.scss"]

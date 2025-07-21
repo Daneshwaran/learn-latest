@@ -1,12 +1,22 @@
 import './App.css'
 
 import { Test } from './test'
+import { flushSync } from 'react-dom'
 import reactLogo from './assets/react.svg'
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 
 function App({ name }) {
   const [count, setCount] = useState(0)
+
+  const handleClick = () => {
+    setCount(prevCount => prevCount + 2)
+    flushSync(() => {
+      setCount(count + 1)
+      console.log('Inside flushSync:', count) // This will show updated value
+    })
+    console.log('Outside flushSync:', count) // This shows old value
+  }
 
   return (
     <>
@@ -20,7 +30,7 @@ function App({ name }) {
       </div>
       <h1>Vite + React 1 {name} <Test /></h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={handleClick}>
           count is {count}
         </button>
         <p>

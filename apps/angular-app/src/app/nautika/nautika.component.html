@@ -1,0 +1,90 @@
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h2>Explore Our Modern & Stylish Fleet</h2>
+      <p>
+        Our premium fleet of modern ferries, each designed for different travel
+        preferences and routes.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Fleet Overview Section -->
+<section class="fleet-overview-section">
+  <div class="container">
+    <h6>Nautika Vessels Overview</h6>
+    <h3 class="section-title">
+      Our premium fleet of modern ferries, each designed for different travel
+      preferences and routes
+    </h3>
+    <div class="ferry-cards">
+      <div class="ferry-card" *ngFor="let ferry of ferries">
+        <img [src]="ferry.image" [alt]="ferry.name" />
+        <h4>{{ ferry.name }}</h4>
+        <p>{{ ferry.description }}</p>
+        <button class="btn btn-outline">{{ ferry.buttonText }}</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Amenities Section -->
+<section class="amenities-section">
+  <div class="container">
+    <h3 class="section-title">
+      Every vessel in our fleet comes equipped with premium amenities and safety
+      features
+    </h3>
+    <div class="amenities-grid">
+      <div class="amenity-item" *ngFor="let amenity of amenities">
+        <i class="{{ amenity.icon }}"></i>
+        <h5>{{ amenity.name }}</h5>
+        <p>{{ amenity.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Nautika Pride Section -->
+<section class="nautika-pride-section">
+  <div class="container">
+    <span class="flagship-tag">FLAGSHIP FERRY</span>
+    <h3 class="section-title">
+      Nautika Pride: India's Largest Passenger Ferry
+    </h3>
+    <div class="pride-content">
+      <div class="pride-image">
+        <img src="assets/images/nautika-pride.jpg" alt="Nautika Pride Ferry" />
+      </div>
+      <div class="pride-details">
+        <p>
+          Meet Nautika Pride, the largest and most luxurious domestic ferry in
+          India. With 400 comfortable seats, 24-knot cruising speed, and
+          multiple private cabin options, this vessel redefines inter-island
+          travel. Whether you're heading to Havelock Island or Neil Island,
+          Nautika Pride guarantees comfort, speed, and panoramic views
+          throughout your journey.
+        </p>
+
+        <div class="pride-features-grid">
+          <div class="feature-box" *ngFor="let feature of prideFeatures">
+            <h6>{{ feature.title }}</h6>
+            <p>{{ feature.value }}</p>
+          </div>
+        </div>
+
+        <div class="premium-features">
+          <h4><i class="fas fa-star"></i> Premium features</h4>
+          <ul>
+            <li *ngFor="let feature of premiumFeatures">
+              <i class="{{ feature.icon }}"></i> {{ feature.name }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,9 +1,21 @@
 {
   "run": {
-    "command": "nx run react-js:serve",
-    "startTime": "2025-07-11T11:31:53.649Z",
-    "endTime": "2025-07-14T04:39:31.986Z",
+    "command": "nx run angular-app:serve --configuration=development",
+    "startTime": "2025-07-21T11:59:18.032Z",
+    "endTime": "2025-07-21T12:08:35.308Z",
     "inner": false
   },
-  "tasks": []
+  "tasks": [
+    {
+      "taskId": "angular-app:serve:development",
+      "target": "serve",
+      "projectName": "angular-app",
+      "hash": "5675397783430726825",
+      "startTime": "2025-07-21T11:59:18.070Z",
+      "endTime": "2025-07-21T12:08:35.295Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
 }

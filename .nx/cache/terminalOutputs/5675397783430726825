@@ -1,0 +1,294 @@
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[33m⠇[39m Building...
+[2K[1A[2K[G[33m⠏[39m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G
+[31m✘[39m angular v20.0.5 is [31mnot yet supported[39m in the Community edition of [33mConsole Ninja[39m.
+We are working hard on it for you [36mhttps://tinyurl.com/3h9mtwra[39m.
+
+Estimated release dates:
+  - Community users: [36maround 1st September, 2025 [1m(subject to team availability)[22m[39m
+[33m  - PRO users[39m:       [1m[32mpriority access is available now[39m[22m
+[?25h[37m[35mBrowser bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m             [2m | [22m[2mmain[22m            [2m | [22m [36m35.01 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m          [2m | [22m[2mstyles[22m          [2m | [22m[36m113 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m [1m35.12 kB[22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m      [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m36.31 kB[39m[37m[2m | [22m[39m
+[37m[32mserver.mjs[39m[37m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.80 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.server.mjs[39m[37m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m243 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [1.254 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/app.ts:7:12:[39m[22m
+[1m[33m[37m      7 │   imports: [[32mRouterOutlet[37m, NautikaComponent],[39m[22m
+[1m[33m        ╵             [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.[39m[22m
+[1m[33m  Use color.adjust instead.[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  darken() is deprecated. Suggestions:[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  color.scale($color, $lightness: -17.7700348432%)[39m[22m
+[1m[33m  color.adjust($color, $lightness: -10%)[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info: [4mhttps://sass-lang.com/d/color-functions[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[35mBrowser bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m             [2m | [22m[2mmain[22m            [2m | [22m [36m35.01 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m          [2m | [22m[2mstyles[22m          [2m | [22m[36m113 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m [1m35.12 kB[22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m      [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m36.31 kB[39m[37m[2m | [22m[39m
+[37m[32mserver.mjs[39m[37m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.80 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.server.mjs[39m[37m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m243 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.016 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/app.ts:7:12:[39m[22m
+[1m[33m[37m      7 │   imports: [[32mRouterOutlet[37m, NautikaComponent],[39m[22m
+[1m[33m        ╵             [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.[39m[22m
+[1m[33m  Use color.adjust instead.[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  darken() is deprecated. Suggestions:[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  color.scale($color, $lightness: -17.7700348432%)[39m[22m
+[1m[33m  color.adjust($color, $lightness: -10%)[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info: [4mhttps://sass-lang.com/d/color-functions[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[35mBrowser bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m             [2m | [22m[2mmain[22m            [2m | [22m [36m35.01 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m          [2m | [22m[2mstyles[22m          [2m | [22m[36m113 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m [1m35.12 kB[22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m      [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m36.31 kB[39m[37m[2m | [22m[39m
+[37m[32mserver.mjs[39m[37m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.80 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.server.mjs[39m[37m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m243 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.006 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/app.ts:7:12:[39m[22m
+[1m[33m[37m      7 │   imports: [[32mRouterOutlet[37m, NautikaComponent],[39m[22m
+[1m[33m        ╵             [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.[39m[22m
+[1m[33m  Use color.adjust instead.[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  darken() is deprecated. Suggestions:[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  color.scale($color, $lightness: -17.7700348432%)[39m[22m
+[1m[33m  color.adjust($color, $lightness: -10%)[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info: [4mhttps://sass-lang.com/d/color-functions[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[35mBrowser bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m             [2m | [22m[2mmain[22m            [2m | [22m [36m35.01 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m          [2m | [22m[2mstyles[22m          [2m | [22m[36m113 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m [1m35.12 kB[22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m      [39m
+[37m[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m36.31 kB[39m[37m[2m | [22m[39m
+[37m[32mserver.mjs[39m[37m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.80 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.server.mjs[39m[37m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m243 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.005 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/app.ts:7:12:[39m[22m
+[1m[33m[37m      7 │   imports: [[32mRouterOutlet[37m, NautikaComponent],[39m[22m
+[1m[33m        ╵             [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.[39m[22m
+[1m[33m  Use color.adjust instead.[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  darken() is deprecated. Suggestions:[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  color.scale($color, $lightness: -17.7700348432%)[39m[22m
+[1m[33m  color.adjust($color, $lightness: -10%)[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info: [4mhttps://sass-lang.com/d/color-functions[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[35mBrowser bundles[39m[37m    [39m
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m       [2m | [22m[36m34.96 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[39m
+[37m[35mServer bundles[39m[37m     [39m
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.server.mjs[39m[37m    [2m | [22m[2mmain.server[22m[2m | [22m[36m36.26 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.302 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/app.ts:7:12:[39m[22m
+[1m[33m[37m      7 │   imports: [[32mRouterOutlet[37m, NautikaComponent],[39m[22m
+[1m[33m        ╵             [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.[39m[22m
+[1m[33m  Use color.adjust instead.[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    apps/angular-app/src/app/nautika/nautika.component.scss:61:24:[39m[22m
+[1m[33m[37m      61 │       background-color: [32m[37mdarken($primary-yellow, 10%);[39m[22m
+[1m[33m         ╵                         [32m^[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  darken() is deprecated. Suggestions:[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  color.scale($color, $lightness: -17.7700348432%)[39m[22m
+[1m[33m  color.adjust($color, $lightness: -10%)[39m[22m
+[1m[33m  [39m[22m
+[1m[33m  More info: [4mhttps://sass-lang.com/d/color-functions[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37mComponent update sent to client(s).[39m
+^C[?25h

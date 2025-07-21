@@ -103,6 +103,11 @@
                 {
                   "glob": "**/*",
                   "input": "apps/angular-app/public"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "apps/angular-app/src/assets",
+                  "output": "assets"
                 }
               ],
               "styles": [
@@ -14158,6 +14163,11 @@
       },
       {
         "source": "angular-app",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "angular-app",
         "target": "npm:express",
         "type": "static"
       }
@@ -14224,5 +14234,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1752923205976
+  "computedAt": 1753101121776
 }
