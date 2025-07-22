@@ -47,76 +47,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
-        "hash": "6206980595310368659"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "13377419431693519786"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "4665328684042819579"
-      },
-      {
-        "file": "tsconfig.spec.json",
-        "hash": "17970622434338748885"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13476084501141153892"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6677975876018843816"
-      },
-      {
         "file": "tsconfig.json",
         "hash": "647748677894160471"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": "package.json",
-        "hash": "13383408209659542846"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "454011832105997850"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6411207040788833586"
-      },
-      {
-        "file": ".cursor/rules/nx-rules.mdc",
-        "hash": "14643671616502251300"
-      },
-      {
-        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
-        "hash": "5522834291640907446"
-      },
-      {
-        "file": "tsconfig.app.json",
-        "hash": "11842259709110511093"
       },
       {
         "file": ".DS_Store",
         "hash": "704277004910781339"
       },
       {
+        "file": ".cursor/rules/nx-rules.mdc",
+        "hash": "14643671616502251300"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13377419431693519786"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "454011832105997850"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "17970622434338748885"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13476084501141153892"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "11842259709110511093"
+      },
+      {
         "file": ".cursor/mcp.json",
         "hash": "14702659707597872141"
       },
       {
+        "file": "package-lock.json",
+        "hash": "6411207040788833586"
+      },
+      {
+        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
+        "hash": "6206980595310368659"
+      },
+      {
         "file": "nx.json",
         "hash": "10311862893163029092"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "4665328684042819579"
+      },
+      {
+        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
+        "hash": "4422478218781449171"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6677975876018843816"
+      },
+      {
+        "file": "package.json",
+        "hash": "13383408209659542846"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       }
     ],
     "projectFileMap": {
@@ -193,6 +193,10 @@
           "hash": "8363196114965412662"
         },
         {
+          "file": "apps/angular-app/public/assets/images/ferries.png",
+          "hash": "8478808802116555650"
+        },
+        {
           "file": "apps/angular-app/public/assets/images/hero-brush-effect.png",
           "hash": "12504892210368130419"
         },
@@ -260,15 +264,15 @@
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.html",
-          "hash": "15918660274414943745"
+          "hash": "4686416740568771323"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.scss",
-          "hash": "15374819842501520415"
+          "hash": "9104470687991294096"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.ts",
-          "hash": "16725201528599732691",
+          "hash": "2972272132278723653",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -303,7 +307,7 @@
         },
         {
           "file": "apps/angular-app/src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "11607476580135748666"
         },
         {
           "file": "apps/angular-app/tsconfig.app.json",
