@@ -47,36 +47,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.json",
-        "hash": "647748677894160471"
+        "file": "tsconfig.spec.json",
+        "hash": "17970622434338748885"
       },
       {
-        "file": ".DS_Store",
-        "hash": "704277004910781339"
+        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
+        "hash": "6206980595310368659"
       },
       {
-        "file": ".cursor/rules/nx-rules.mdc",
-        "hash": "14643671616502251300"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "13377419431693519786"
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "454011832105997850"
       },
       {
-        "file": "tsconfig.spec.json",
-        "hash": "17970622434338748885"
+        "file": ".cursor/rules/nx-rules.mdc",
+        "hash": "14643671616502251300"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "vitest.workspace.ts",
+        "hash": "4665328684042819579"
       },
       {
-        "file": ".gitignore",
-        "hash": "13476084501141153892"
+        "file": "package-lock.json",
+        "hash": "6411207040788833586"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6677975876018843816"
+      },
+      {
+        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
+        "hash": "4422478218781449171"
       },
       {
         "file": "tsconfig.app.json",
@@ -87,36 +91,32 @@
         "hash": "14702659707597872141"
       },
       {
-        "file": "package-lock.json",
-        "hash": "6411207040788833586"
+        "file": ".DS_Store",
+        "hash": "704277004910781339"
       },
       {
-        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
-        "hash": "6206980595310368659"
+        "file": "tsconfig.json",
+        "hash": "647748677894160471"
       },
       {
-        "file": "nx.json",
-        "hash": "10311862893163029092"
+        "file": ".gitignore",
+        "hash": "13476084501141153892"
       },
       {
-        "file": "vitest.workspace.ts",
-        "hash": "4665328684042819579"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
-        "hash": "4422478218781449171"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6677975876018843816"
+        "file": ".vscode/extensions.json",
+        "hash": "13377419431693519786"
       },
       {
         "file": "package.json",
         "hash": "13383408209659542846"
       },
       {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
+        "file": "nx.json",
+        "hash": "10311862893163029092"
       }
     ],
     "projectFileMap": {
@@ -201,6 +201,30 @@
           "hash": "12504892210368130419"
         },
         {
+          "file": "apps/angular-app/public/assets/images/icons/Bolt.svg",
+          "hash": "11398876782608421271"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_air-conditioning.svg",
+          "hash": "7810013029538190336"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_drink.svg",
+          "hash": "17737085523814458484"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_tickets-checked.svg",
+          "hash": "17422245887505819305"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/material-symbols_chair-outline.svg",
+          "hash": "10170907739850596700"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/material-symbols_clean-hands-outline-rounded.svg",
+          "hash": "15720293371845576056"
+        },
+        {
           "file": "apps/angular-app/public/assets/images/nautika-hero.png",
           "hash": "10386330104319170412"
         },
@@ -264,11 +288,11 @@
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.html",
-          "hash": "4686416740568771323"
+          "hash": "12419104523399430287"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.scss",
-          "hash": "9104470687991294096"
+          "hash": "2300293736701228395"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.ts",
