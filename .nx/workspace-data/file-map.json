@@ -47,76 +47,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "13377419431693519786"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6677975876018843816"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "647748677894160471"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "704277004910781339"
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
         "file": "tsconfig.spec.json",
         "hash": "17970622434338748885"
       },
       {
-        "file": "tsconfig.app.json",
-        "hash": "11842259709110511093"
-      },
-      {
-        "file": "package.json",
-        "hash": "13383408209659542846"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13476084501141153892"
-      },
-      {
-        "file": ".cursor/rules/nx-rules.mdc",
-        "hash": "14643671616502251300"
-      },
-      {
         "file": ".vscode/settings.json",
         "hash": "454011832105997850"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
-        "hash": "6206980595310368659"
       },
       {
         "file": "vitest.workspace.ts",
         "hash": "4665328684042819579"
       },
       {
-        "file": "nx.json",
-        "hash": "10311862893163029092"
-      },
-      {
         "file": "package-lock.json",
         "hash": "6411207040788833586"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
+        "hash": "6206980595310368659"
       },
       {
         "file": ".cursor/mcp.json",
         "hash": "14702659707597872141"
       },
       {
+        "file": "package.json",
+        "hash": "13383408209659542846"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "704277004910781339"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13377419431693519786"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10311862893163029092"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6677975876018843816"
+      },
+      {
         "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
-        "hash": "2468372514834082603"
+        "hash": "5170504067213488676"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "647748677894160471"
+      },
+      {
+        "file": ".cursor/rules/nx-rules.mdc",
+        "hash": "14643671616502251300"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13476084501141153892"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "11842259709110511093"
       }
     ],
     "projectFileMap": {
@@ -233,6 +233,10 @@
           "hash": "17422245887505819305"
         },
         {
+          "file": "apps/angular-app/public/assets/images/icons/trophy.svg",
+          "hash": "7358438385812214217"
+        },
+        {
           "file": "apps/angular-app/public/assets/images/nautika-hero.png",
           "hash": "10386330104319170412"
         },
@@ -288,19 +292,18 @@
         },
         {
           "file": "apps/angular-app/src/app/app.ts",
-          "hash": "2571085810629308616",
+          "hash": "12224661593770762491",
           "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
+            "npm:@angular/core"
           ]
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.html",
-          "hash": "1502551368650359857"
+          "hash": "1584583857754594086"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.scss",
-          "hash": "6587219979896855924"
+          "hash": "15474829795958675421"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.ts",
