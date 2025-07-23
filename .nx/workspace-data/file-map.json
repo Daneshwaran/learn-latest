@@ -47,12 +47,68 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".gitignore",
+        "hash": "13476084501141153892"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "704277004910781339"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6677975876018843816"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13377419431693519786"
+      },
+      {
+        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
+        "hash": "2468372514834082603"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".cursor/mcp.json",
+        "hash": "14702659707597872141"
+      },
+      {
         "file": "tsconfig.spec.json",
         "hash": "17970622434338748885"
       },
       {
+        "file": ".cursor/rules/nx-rules.mdc",
+        "hash": "14643671616502251300"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "647748677894160471"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10311862893163029092"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "4665328684042819579"
+      },
+      {
         "file": ".angular/cache/20.0.5/angular-app/vite/com.chrome.devtools.json",
         "hash": "6206980595310368659"
+      },
+      {
+        "file": "package.json",
+        "hash": "13383408209659542846"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6411207040788833586"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "11842259709110511093"
       },
       {
         "file": ".prettierignore",
@@ -61,62 +117,6 @@
       {
         "file": ".vscode/settings.json",
         "hash": "454011832105997850"
-      },
-      {
-        "file": ".cursor/rules/nx-rules.mdc",
-        "hash": "14643671616502251300"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "4665328684042819579"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6411207040788833586"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6677975876018843816"
-      },
-      {
-        "file": ".angular/cache/20.0.5/angular-app/.tsbuildinfo",
-        "hash": "4422478218781449171"
-      },
-      {
-        "file": "tsconfig.app.json",
-        "hash": "11842259709110511093"
-      },
-      {
-        "file": ".cursor/mcp.json",
-        "hash": "14702659707597872141"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "704277004910781339"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "647748677894160471"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13476084501141153892"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "13377419431693519786"
-      },
-      {
-        "file": "package.json",
-        "hash": "13383408209659542846"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10311862893163029092"
       }
     ],
     "projectFileMap": {
@@ -205,24 +205,28 @@
           "hash": "11398876782608421271"
         },
         {
-          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_air-conditioning.svg",
+          "file": "apps/angular-app/public/assets/images/icons/air-conditioning.svg",
           "hash": "7810013029538190336"
         },
         {
-          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_drink.svg",
-          "hash": "17737085523814458484"
+          "file": "apps/angular-app/public/assets/images/icons/bolt.svg",
+          "hash": "11398876782608421271"
         },
         {
-          "file": "apps/angular-app/public/assets/images/icons/icon-park-outline_tickets-checked.svg",
-          "hash": "17422245887505819305"
-        },
-        {
-          "file": "apps/angular-app/public/assets/images/icons/material-symbols_chair-outline.svg",
+          "file": "apps/angular-app/public/assets/images/icons/chair.svg",
           "hash": "10170907739850596700"
         },
         {
-          "file": "apps/angular-app/public/assets/images/icons/material-symbols_clean-hands-outline-rounded.svg",
+          "file": "apps/angular-app/public/assets/images/icons/clean-hands.svg",
           "hash": "15720293371845576056"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/drink.svg",
+          "hash": "17737085523814458484"
+        },
+        {
+          "file": "apps/angular-app/public/assets/images/icons/tickets-checked.svg",
+          "hash": "17422245887505819305"
         },
         {
           "file": "apps/angular-app/public/assets/images/nautika-hero.png",
@@ -288,7 +292,7 @@
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.html",
-          "hash": "12419104523399430287"
+          "hash": "2560871783257359265"
         },
         {
           "file": "apps/angular-app/src/app/nautika/nautika.component.scss",
