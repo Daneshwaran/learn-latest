@@ -21,7 +21,6 @@ $text-dark: #0d0d0d;
   text-align: center;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 2rem;
-  margin-bottom: 60px;
   color: $text-dark;
   font-weight: 600;
 }
@@ -157,6 +156,7 @@ body {
 
   .section-title {
     @include section-title;
+    margin-bottom: 60px;
   }
 
   .ferry-cards {
@@ -173,8 +173,16 @@ body {
       flex-direction: row;
       gap: 2.5rem;
 
+      @media screen and (max-width: 1440px) {
+        flex-direction: column;
+        img {
+          margin: auto;
+        }
+      }
+
       img {
         object-fit: contain;
+        min-width: 300px;
       }
 
       .ferry-card-content {
@@ -185,21 +193,23 @@ body {
         gap: 1.5rem;
       }
 
-      &.left {
-        .ferry-card-content {
-          order: 1;
+      @media screen and (min-width: 1441px) {
+        &.left {
+          .ferry-card-content {
+            order: 1;
+          }
+          img {
+            order: 2;
+          }
         }
-        img {
-          order: 2;
-        }
-      }
 
-      &.right {
-        .ferry-card-content {
-          order: 2;
-        }
-        img {
-          order: 1;
+        &.right {
+          .ferry-card-content {
+            order: 2;
+          }
+          img {
+            order: 1;
+          }
         }
       }
 
@@ -243,6 +253,7 @@ body {
     @include section-title;
     line-height: 1.2;
     font-size: 3.5rem;
+    margin-bottom: 60px;
   }
 
   .amenities-grid {
@@ -367,6 +378,12 @@ body {
             color: $primary-blue;
             margin-bottom: 10px;
             line-height: 1.2;
+          }
+
+          @media screen and (max-width: 1024px) {
+            h6 {
+              font-size: 1.5rem;
+            }
           }
 
           p {
