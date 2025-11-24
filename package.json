@@ -7,6 +7,7 @@
     "build": "nx build angular-app",
     "watch": "nx build angular-app --watch --configuration development",
     "test": "nx test angular-app",
+    "test:jest": "jest",
     "serve:ssr:angular-app": "node dist/angular-app/server/server.mjs"
   },
   "private": true,
@@ -60,6 +61,7 @@
     "@vitest/ui": "^3.0.0",
     "cypress": "^14.2.1",
     "jasmine-core": "~5.7.0",
+    "jest": "^30.2.0",
     "jiti": "2.4.2",
     "jsdom": "~22.1.0",
     "karma": "~6.4.0",
@@ -68,6 +70,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "nx": "21.2.2",
+    "plop": "^4.0.4",
     "prettier": "^2.6.2",
     "sass": "^1.55.0",
     "typescript": "~5.8.2",

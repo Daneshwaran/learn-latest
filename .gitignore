@@ -4,8 +4,22 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
-
-
+.env.example
+.nx
+.angular
 
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
+
+.cursor/
+
+apps/react-app/src/app/**/*.scss
+apps/react-app/src/app/**/*.tsx
+dist/test-out/
+
+test/jest.config.js
+test/package-lock.json
+test/package.json
+test/sum.js
+test/sum.test.js
+test/coverage/
