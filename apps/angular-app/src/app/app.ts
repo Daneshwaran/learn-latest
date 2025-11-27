@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NautikaComponent } from './nautika/nautika.component';
+import { Test } from './test/test';
 
 @Component({
   selector: 'app-root',
-  imports: [NautikaComponent],
+  imports: [Test],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
